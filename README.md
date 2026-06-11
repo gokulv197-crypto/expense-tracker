@@ -1,31 +1,4 @@
 <p align="center">
-  <img src="https://github.com/gokulv197-crypto/readme-images/blob/main/expense-tracker/b1d1906722b334d8674254682068c0b9_fgraphic1.png">
-</p>
-
-The Expense Tracker is a backend application designed to help users securely manage, track, and analyze their personal financial expenses. It provides a complete system for account management, expense recording, analytics, and account recovery, built with a focus on structured data handling and API-driven interactions.
-<br>
-<br>
-Users can create an account using their email, password, and mobile number. The system ensures strong password policies and validates email and phone number formats before registration. Once registered, users can log in to receive an access token for authenticated interactions and a refresh token for maintaining sessions securely.
-<br>
-<br>
-After authentication, users can create, view, update, and delete their expenses. Each expense includes a title and a monetary amount, allowing users to organize and track their spending efficiently. The system also caches expense data to improve performance and reduce repeated database queries.
-<br>
-<br>
-The application provides analytical insights into user spending. Users can specify a date range to retrieve aggregated data such as total spending, average expense, minimum and maximum expenses, and the total number of transactions. Additionally, item-level analytics allow users to analyze spending patterns for individual expense titles.
-<br>
-<br>
-For account management, users can update their email, password, and mobile number. Security measures such as password verification and rate limiting are applied to sensitive operations to prevent abuse and unauthorized access.
-<br>
-<br>
-The system also includes an account recovery mechanism. If a user forgets their password, they can request a one-time password (OTP) sent to their registered mobile number. After verifying the OTP, the user can reset their password securely. OTPs are time-bound and stored temporarily to ensure safety.
-<br>
-<br>
-Administrative health-check endpoints are provided to monitor the status of the database, cache systems, rate limiter, OTP storage, and messaging service. These endpoints help ensure that all system components are functioning correctly.
-<br>
-<br>
-Overall, the Expense Tracker is a RESTful API-based backend system that combines authentication, data management, caching, rate limiting, and external messaging integration to deliver a structured and scalable expense management solution.
-
-<p align="center">
   <img src="">
 </p>
 
